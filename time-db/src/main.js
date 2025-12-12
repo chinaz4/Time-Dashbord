@@ -5,7 +5,7 @@ const cards = document.querySelectorAll(".card");
 
 let data = [];
 
-fetch("/public/data.json")
+fetch("/data.json")
   .then((res) => res.json())
   .then((json) => {
     data = json;
